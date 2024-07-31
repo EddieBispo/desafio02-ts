@@ -1,9 +1,15 @@
-import './Header.css'
+import {
+  Container,
+  Heading,
+  Center
+} from '@chakra-ui/react'
 
-export const Header  = () => {
-  return(
-    <div className='header'>
-      Dio Bank
-    </div>
+export const Header = () => {
+  return (
+    <Container>
+      <Center>
+        <Heading as='h1'>Dio Bank</Heading>
+      </Center>
+    </Container>
   )
 }
